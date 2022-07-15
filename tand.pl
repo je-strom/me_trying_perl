@@ -8,4 +8,4 @@ use Math::Trig;
 print "Tan: ";
 my $deg = <STDIN>;
 chomp $deg;
-say "Tan $deg = ", sin(deg2rad($deg)) / cos(deg2rad($deg)); 
+print ("Tan $deg = ", sin(deg2rad($deg)) / cos(deg2rad($deg))); 
