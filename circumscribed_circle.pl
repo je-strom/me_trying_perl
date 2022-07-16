@@ -2,7 +2,7 @@
 use warnings;
 use strict;
 
-print("Calculate the circumscribed circle a rectangle/square\n");
+print("Calculate the circumscribed circle of a rectangle/square\n");
 print("Length of side a : ");
 my $side_a = <<>>;
 print("Length of side b : ");
