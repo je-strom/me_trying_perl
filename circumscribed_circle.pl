@@ -1,4 +1,7 @@
-#!/usr/bin/perl
+=head2
+Calculate the circumscribed circle of a rectangle/square
+=cut
+#!/usr/bin/env perl
 use warnings;
 use strict;
 

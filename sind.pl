@@ -1,13 +1,14 @@
+=head2 sind  
+	Sinus function with result in degrees
+=cut
 #!/usr/bin/env perl
-# Sinus function with result in degrees
-use strict;
 use warnings;
+use strict;
 use v5.32;
-
 use Math::Trig;
 
-print "Sin: ";
+print "Sind : ";
 my $deg = <STDIN>;
 chomp $deg;
 my $rad = deg2rad($deg);
-say "Sin $deg = ",  sin($rad);
+say "Sind $deg = ",  sin($rad);

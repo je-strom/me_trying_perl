@@ -1,3 +1,6 @@
+=head2
+Reverse string example.
+=cut
 #!/usr/bin/env perl
 use warnings;
 use strict;

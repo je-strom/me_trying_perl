@@ -1,3 +1,7 @@
+=head2
+Converts Inch fractions to decimal millimeter form
+=cut
+#!/usr/bin/env perl
 use warnings;
 use strict;
 use v5.36;

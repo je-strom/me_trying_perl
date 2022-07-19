@@ -1,13 +1,14 @@
+=head2 cosd  
+	Cosinus function with result in degrees
+=cut
 #!/usr/bin/env perl
-# Cosinus function with result in degrees
-use strict;
 use warnings;
-use v5.32;
-
+use strict;
+use v5.36;
 use Math::Trig;
 
-print "Cos: ";
+print "Cosd : ";
 my $deg = <STDIN>;
 chomp $deg;
 my $rad = deg2rad($deg);
-say "Cos $deg = ",  cos($rad);
+say "Cosd $deg = ",  cos($rad);

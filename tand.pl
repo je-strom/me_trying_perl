@@ -1,10 +1,14 @@
+=head2 tand  
+	Tangens function with result in degrees
+=cut
 #!/usr/bin/env perl
-# Tangens function with result in degrees
-use strict;
 use warnings;
-use v5.32;
+use strict;
+use v5.36;
 use Math::Trig;
-print "Tan: ";
+
+print "Tand : ";
 my $deg = <STDIN>;
 chomp $deg;
-print ("Tan $deg = ", sin(deg2rad($deg)) / cos(deg2rad($deg)), "\n"); 
+#print ("Tand $deg = ", tan(deg2rad($deg)), "\n");
+print ("Tand $deg = ", sin(deg2rad($deg)) / cos(deg2rad($deg)), "\n"); 
