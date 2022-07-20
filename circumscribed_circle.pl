@@ -1,9 +1,10 @@
+#!/usr/bin/env perl
 =head2
 Calculate the circumscribed circle of a rectangle/square
 =cut
-#!/usr/bin/env perl
 use warnings;
 use strict;
+use v5.32;
 
 print("Calculate the circumscribed circle of a rectangle/square\n");
 print("Length of side a : ");

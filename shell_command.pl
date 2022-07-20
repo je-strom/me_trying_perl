@@ -1,9 +1,10 @@
+#!/usr/bin/env perl
 =head2
-execute shell comands
+execute shell commands
 =cut
 use warnings;
 use strict;
-use v5.36;
+use v5.32;
 
 my $command;
 print("type quit to quit :)\n");

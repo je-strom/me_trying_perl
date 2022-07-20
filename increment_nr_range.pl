@@ -1,8 +1,8 @@
+#!/usr/bin/env perl
 =head2
 Create a numeric range with optional increment steps.
 Possible to add fixed Prefix and Suffix to the numeric range.
 =cut
-#!/usr/bin/env perl
 use warnings;
 use strict;
 use v5.32;

@@ -1,7 +1,8 @@
+#!/usr/bin/env perl
 =head2 sind  
 	Sinus function with result in degrees
 =cut
-#!/usr/bin/env perl
+
 use warnings;
 use strict;
 use v5.32;

@@ -1,10 +1,10 @@
+#!/usr/bin/env perl
 =head2
 Converts Inch fractions to decimal millimeter form
 =cut
-#!/usr/bin/env perl
 use warnings;
 use strict;
-use v5.36;
+use v5.32;
 my ($user_input, ,$result);
 
 print("Converts Inch fractions to decimal millimeter form\n");

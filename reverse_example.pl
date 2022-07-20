@@ -1,10 +1,10 @@
+#!/usr/bin/env perl
 =head2
 Reverse string example.
 =cut
-#!/usr/bin/env perl
 use warnings;
 use strict;
-use v5.36; # Change to to your Perl version 
+use v5.32; # Change to to your Perl version 
 
 my @data = qw( CaptainFart CaptainUnderpants Paris Perl );
 
