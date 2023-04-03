@@ -10,17 +10,17 @@ use Time::HiRes qw(time);
 Practice multiplication tables with time limit
 =cut
 
-my $right         = undef;
-my $wrong         = undef;
-my $to_slow       = undef;
-my $time_limit    = undef;
-my $start_time    = undef;
-my $end_time      = undef;
-my $elapsed_time  = undef;
-my $answer        = undef;
-my $m_table       = undef;
-my $m_table_start = undef;
-my $m_table_end   = undef;
+my $right_answer  = 0;
+my $wrong_answer  = 0;
+my $to_slow       = 0;
+my $time_limit    = 0;
+my $start_time    = 0;
+my $end_time      = 0;
+my $elapsed_time  = 0;
+my $answer        = 0;
+my $m_table       = 0;
+my $m_table_start = 0;
+my $m_table_end   = 0;
 my @m_table_range = ();
 
 system("cls");
@@ -52,17 +52,17 @@ foreach (@m_table_range) {
             ++$to_slow;
         }
         else {
-            ++$right;
+            ++$right_answer;
             print("\t\t   Right\n");
         }
 
     }
     else {
-        ++$wrong;
+        ++$wrong_answer;
         print("\t\t   Wrong\n");
     }
 }
 
 print(
-    "\n\nYou got $right right answer and $wrong wrong answer and $to_slow times to slow!\n"
+    "\n\nYou got $right_answer right answer and $wrong_answer wrong answer and $to_slow times to slow!\n"
 );
