@@ -12,12 +12,12 @@ Practice multiplication tables with time limit
 
 my $right         = undef;
 my $wrong         = undef;
-my $to_slow		  = undef;
+my $to_slow       = undef;
 my $time_limit    = undef;
-my $start_time	  = undef;
+my $start_time    = undef;
 my $end_time      = undef;
 my $elapsed_time  = undef;
-my $answer		  = undef;
+my $answer        = undef;
 my $m_table       = undef;
 my $m_table_start = undef;
 my $m_table_end   = undef;
@@ -46,10 +46,10 @@ foreach (@m_table_range) {
     $elapsed_time = $end_time - $start_time;
     chomp($answer);
 
-	if ( $_ * $m_table == $answer ) {
+    if ( $_ * $m_table == $answer ) {
         if ( $elapsed_time > $time_limit ) {
             print("\t\t   To Slow!\n");
-			++$to_slow;
+            ++$to_slow;
         }
         else {
             ++$right;
@@ -63,4 +63,6 @@ foreach (@m_table_range) {
     }
 }
 
-print("\n\nYou got $right right answer and $wrong wrong answer and $to_slow times to slow!\n");
+print(
+    "\n\nYou got $right right answer and $wrong wrong answer and $to_slow times to slow!\n"
+);
