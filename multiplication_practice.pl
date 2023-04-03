@@ -37,6 +37,7 @@ $time_limit = <<>>;
 
 @m_table_range = ( $m_table_start .. $m_table_end );
 system("cls");
+
 foreach (@m_table_range) {
     print("\t$_ * $m_table = ");
     $start_time   = time();
@@ -44,7 +45,8 @@ foreach (@m_table_range) {
     $end_time     = time();
     $elapsed_time = $end_time - $start_time;
     chomp($answer);
-    if ( $_ * $m_table == $answer ) {
+
+	if ( $_ * $m_table == $answer ) {
         if ( $elapsed_time > $time_limit ) {
             print("\t\t   To Slow!\n");
 			++$to_slow;
